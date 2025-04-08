@@ -1,0 +1,26 @@
+Schedule = [
+    # Train 1's Timed Operations
+    [ (Op1_1, StartTime1_1), (Op1_2, StartTime1_2), (Op1_3, StartTime1_3) ],
+
+    # Train 2's Timed Operations
+    [ (Op2_1, StartTime2_1), (Op2_2, StartTime2_2), (Op2_3, StartTime2_3), (Op2_4, StartTime2_4) ],
+
+    # ... other trains
+]
+
+GA components
+
+Population: A collection of Schedules
+
+Each Schedule represents:
+1. One potential timetable 
+2. Start times are assigned to every single required and valid operation for the train to complete its journey
+
+Initialization
+
+Fitness Function
+
+Crossover
+
+Mutation
+
